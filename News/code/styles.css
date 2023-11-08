@@ -191,12 +191,10 @@ button {
   row-gap: 20px;
 }
 .hot-news > img {
-  width: 0px;
-  min-width: 100%;
+  width: 100%;
 }
 .hot-news-detail {
-  width: 0px;
-  min-width: 100%;
+  width: 100%;
 }
 .hot-news-detail > :nth-child(1) {
   font-size: var(--fs-xl);
@@ -226,7 +224,7 @@ button {
 .list-news {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
+  column-gap: 20px;
   row-gap: 50px;
 }
 
@@ -239,8 +237,6 @@ button {
   background-color: var(--White);
   border-radius: var(--border-radius-md);
   row-gap: 10px;
-  width: 0px;
-  min-width: 100%;
 }
 .news > img {
   width: 100%;

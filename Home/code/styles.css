@@ -180,7 +180,7 @@ button {
 .list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
+  column-gap: 20px;
   row-gap: 50px;
 }
 
@@ -192,8 +192,6 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  width: 0;
-  min-width: 100%;
 }
 .course > img {
   width: 100%;
