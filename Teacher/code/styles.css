@@ -54,7 +54,7 @@ input[type="text"], textarea, select:focus {
   outline: none;
 }
 
-button {
+.button {
   padding: 8px 16px;
   border-radius: var(--border-radius-md);
   border-width: 0px;

@@ -41,7 +41,7 @@ input[type="text"], textarea {
   padding: 8px 10px;
 }
 
-button {
+.button {
   padding: 8px 16px;
   border-radius: var(--border-radius-md);
   border-width: 0px;
@@ -199,7 +199,7 @@ button {
 .course > img {
   width: 100%;
 }
-.course > button {
+.course > .button {
   width: 100%;
 }
 .course-title {
