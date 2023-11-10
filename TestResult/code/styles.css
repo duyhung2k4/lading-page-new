@@ -84,14 +84,14 @@ input[type="text"], textarea, select:focus {
   cursor: pointer;
 }
 .button-dark {
-  background-color: var(--color-secondary-5);
+  background-color: var(--color-primary-5);
   color: var(--White) !important;
 }
 .button-light {
   background-color: var(--White);
-  color: var(--color-secondary-5) !important;
+  color: var(--color-primary-5) !important;
   border-width: 2px;
-  border-color: var(--color-secondary-5);
+  border-color: var(--color-primary-5);
 }
 .button-dark > p {
   margin-block-start: 0px;
