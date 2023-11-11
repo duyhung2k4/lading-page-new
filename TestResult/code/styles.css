@@ -211,12 +211,12 @@ input[type="text"], textarea, select:focus {
   margin-block-start: 0px;
 }
 
-.result .point > :nth-child(1) {
+.result .point .count {
   color: var(--color-secondary-5);
   font-size: var(--fs-xl);
   font-weight: var(--fw-md);
 }
-.result .point > :nth-child(2) {
+.result .point .unit {
   color: var(--color-neutral-4);
   font-size: var(--fs-sm);
   font-weight: var(--fw-md);

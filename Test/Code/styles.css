@@ -171,12 +171,12 @@ input[type="text"], textarea, select:focus {
 .test > img {
   width: 100%;
 }
-.test-detail > :nth-child(1) {
+.test-detail .name {
   font-size: var(--fs-lg);
   font-weight: var(--fw-md);
   color: var(--color-primary-5);
 }
-.test-detail > :nth-child(2) {
+.test-detail .detail {
   font-size: var(--fs-md);
   font-weight: var(--fw-sm);
   color: var(--color-grey-4);

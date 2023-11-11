@@ -13,8 +13,8 @@ const templateResult = (
     `
     <div class="box-point">
       <div class="point">
-        <p>${point} / ${maxPoint}</p>
-        <p>điểm</p>
+        <p class="count">${point} / ${maxPoint}</p>
+        <p class="unit">điểm</p>
       </div>
     </div>
     <div class="detail">
