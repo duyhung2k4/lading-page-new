@@ -3,6 +3,7 @@ let data = [
     "id": 1,
     "name": "Kỹ thuật",
     "title": "Kỹ thuật",
+    "code": "realistic",
     "detail": "Nếu có đầy đủ cơ hội và nguồn lực, bạn có thích... 1",
     "quests": [
       { "quest": "Q1-1", "id": 1, "value": "-1" },
@@ -29,6 +30,7 @@ let data = [
     "id": 2,
     "name": "Nghiên cứu",
     "title": "Nghiên cứu",
+    "code": "investigative",
     "detail": "Nếu có đầy đủ cơ hội và nguồn lực, bạn có thích... 2",
     "quests": [
       { "quest": "Q2-1", "id": 1, "value": "-1" },
@@ -55,6 +57,7 @@ let data = [
     "id": 3,
     "name": "Nghệ thuật",
     "title": "Nghệ thuật",
+    "code": "artistic",
     "detail": "Nếu có đầy đủ cơ hội và nguồn lực, bạn có thích... 3",
     "quests": [
       { "quest": "Q3-1", "id": 1, "value": "-1" },
@@ -81,6 +84,7 @@ let data = [
     "id": 4,
     "name": "Xã hội",
     "title": "Xã hội",
+    "code": "social",
     "detail": "Nếu có đầy đủ cơ hội và nguồn lực, bạn có thích... 4",
     "quests": [
       { "quest": "Q4-1", "id": 1, "value": "-1" },
@@ -107,6 +111,7 @@ let data = [
     "id": 5,
     "name": "Quản lý",
     "title": "Quản lý",
+    "code": "enterprising",
     "detail": "Nếu có đầy đủ cơ hội và nguồn lực, bạn có thích... 5",
     "quests": [
       { "quest": "Q5-1", "id": 1, "value": "-1" },
@@ -133,6 +138,7 @@ let data = [
     "id": 6,
     "name": "Nghiệp vụ",
     "title": "Nghiệp vụ",
+    "code": "conventional",
     "detail": "Nếu có đầy đủ cơ hội và nguồn lực, bạn có thích... 6",
     "quests": [
       { "quest": "Q6-1", "id": 1, "value": "-1" },
@@ -337,10 +343,22 @@ const submit = () => {
       name: d.name,
       detail: d.detail,
       point,
+      code: d.code,
       maxPoint: d.quests.length,
     }
   });
-  console.log(pointGroup);
+  const dataSaveCookie = {};
+  pointGroup.forEach((p) => {
+    const obj = {
+      point: p.point,
+      maxPoint: p.maxPoint
+    }
+    dataSaveCookie[`${p.code}`] = obj;
+  });
+  localStorage.removeItem("quizzResult");
+  localStorage.setItem("quizzResult", JSON.stringify(dataSaveCookie));
+  const cutPath = window.location.pathname.split("/Quizz/");
+  window.location.href = `${cutPath[0]}/TestResult/${cutPath[1]}`;
 }
 
 
