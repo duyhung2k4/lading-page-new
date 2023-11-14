@@ -1,3 +1,10 @@
+const localStorageItem = {
+  quizzResult: "quizzResult",
+}
+
+const buttonBackToQuizz = document.querySelector("#back-to-quizz");
+
+// Template
 const templateResult = (
   {
     point, //number
@@ -38,10 +45,13 @@ const templateResult = (
   )
 }
 
+
+
+// Func
 const renderListResult = async () => {
   let listResult = [];
   const boxResult = document.querySelector(".list-result");
-  const quizzResult = JSON.parse(localStorage.getItem("quizzResult"));
+  const quizzResult = JSON.parse(localStorage.getItem(localStorageItem.quizzResult));
 
   listResult = [
     {
@@ -120,8 +130,28 @@ const renderListResult = async () => {
   })
 }
 
+
+const backToQuizz = () => {
+  localStorage.removeItem(localStorageItem.quizzResult);
+  const cutPath = window.location.pathname.split("/TestResult/");
+  window.location.href = `${cutPath[0]}/Quizz/${cutPath[1]}`;
+}
+
+
+// Init
 const init = () => {
+  const quizzResult = JSON.parse(localStorage.getItem(localStorageItem.quizzResult));
+  
+  if(quizzResult === null) {
+    const cutPath = window.location.pathname.split("/TestResult/");
+    window.location.href = `${cutPath[0]}/Quizz/${cutPath[1]}`;
+    return;
+  }
+
   renderListResult();
 }
 
+
+// Run
 init();
+buttonBackToQuizz.addEventListener("click", backToQuizz);

@@ -165,6 +165,10 @@ let data = [
 let ID_GROUP = 1;
 let DATA_LENGTH = data.length;
 
+const localStorageItem = {
+  quizzResult: "quizzResult",
+}
+
 // Element
 const elementQuest = ({
   quest,
@@ -287,6 +291,14 @@ const renderListQuest = () => {
 
 
 const initRender = () => {
+  const quizzResult = JSON.parse(localStorage.getItem(localStorageItem.quizzResult));
+
+  if(quizzResult !== null) {
+    const cutPath = window.location.pathname.split("/Quizz/");
+    window.location.href = `${cutPath[0]}/TestResult/${cutPath[1]}`;
+    return;
+  }
+
   renderListGroup();
   renderListQuest();
   groupNavigation();
@@ -355,8 +367,8 @@ const submit = () => {
     }
     dataSaveCookie[`${p.code}`] = obj;
   });
-  localStorage.removeItem("quizzResult");
-  localStorage.setItem("quizzResult", JSON.stringify(dataSaveCookie));
+  localStorage.removeItem(localStorageItem.quizzResult);
+  localStorage.setItem(localStorageItem.quizzResult, JSON.stringify(dataSaveCookie));
   const cutPath = window.location.pathname.split("/Quizz/");
   window.location.href = `${cutPath[0]}/TestResult/${cutPath[1]}`;
 }
