@@ -10,20 +10,20 @@ let data = [
       { "quest": "Q1-2", "id": 2, "value": "-1" },
       { "quest": "Q1-3", "id": 3, "value": "-1" },
       { "quest": "Q1-4", "id": 4, "value": "-1" },
-      { "quest": "Q1-5", "id": 5, "value": "-1" },
-      { "quest": "Q1-6", "id": 6, "value": "-1" },
-      { "quest": "Q1-7", "id": 7, "value": "-1" },
-      { "quest": "Q1-8", "id": 8, "value": "-1" },
-      { "quest": "Q1-9", "id": 9, "value": "-1" },
-      { "quest": "Q1-10", "id": 10, "value": "-1" },
-      { "quest": "Q1-11", "id": 11, "value": "-1" },
-      { "quest": "Q1-12", "id": 12, "value": "-1" },
-      { "quest": "Q1-13", "id": 13, "value": "-1" },
-      { "quest": "Q1-14", "id": 14, "value": "-1" },
-      { "quest": "Q1-15", "id": 15, "value": "-1" },
-      { "quest": "Q1-16", "id": 16, "value": "-1" },
-      { "quest": "Q1-17", "id": 17, "value": "-1" },
-      { "quest": "Q1-18", "id": 18, "value": "-1" }
+      // { "quest": "Q1-5", "id": 5, "value": "-1" },
+      // { "quest": "Q1-6", "id": 6, "value": "-1" },
+      // { "quest": "Q1-7", "id": 7, "value": "-1" },
+      // { "quest": "Q1-8", "id": 8, "value": "-1" },
+      // { "quest": "Q1-9", "id": 9, "value": "-1" },
+      // { "quest": "Q1-10", "id": 10, "value": "-1" },
+      // { "quest": "Q1-11", "id": 11, "value": "-1" },
+      // { "quest": "Q1-12", "id": 12, "value": "-1" },
+      // { "quest": "Q1-13", "id": 13, "value": "-1" },
+      // { "quest": "Q1-14", "id": 14, "value": "-1" },
+      // { "quest": "Q1-15", "id": 15, "value": "-1" },
+      // { "quest": "Q1-16", "id": 16, "value": "-1" },
+      // { "quest": "Q1-17", "id": 17, "value": "-1" },
+      // { "quest": "Q1-18", "id": 18, "value": "-1" }
     ]
   },
   {
@@ -37,20 +37,20 @@ let data = [
       { "quest": "Q2-2", "id": 2, "value": "-1" },
       { "quest": "Q2-3", "id": 3, "value": "-1" },
       { "quest": "Q2-4", "id": 4, "value": "-1" },
-      { "quest": "Q2-5", "id": 5, "value": "-1" },
-      { "quest": "Q2-6", "id": 6, "value": "-1" },
-      { "quest": "Q2-7", "id": 7, "value": "-1" },
-      { "quest": "Q2-8", "id": 8, "value": "-1" },
-      { "quest": "Q2-9", "id": 9, "value": "-1" },
-      { "quest": "Q2-10", "id": 10, "value": "-1" },
-      { "quest": "Q2-11", "id": 11, "value": "-1" },
-      { "quest": "Q2-12", "id": 12, "value": "-1" },
-      { "quest": "Q2-13", "id": 13, "value": "-1" },
-      { "quest": "Q2-14", "id": 14, "value": "-1" },
-      { "quest": "Q2-15", "id": 15, "value": "-1" },
-      { "quest": "Q2-16", "id": 16, "value": "-1" },
-      { "quest": "Q2-17", "id": 17, "value": "-1" },
-      { "quest": "Q2-18", "id": 18, "value": "-1" }
+      // { "quest": "Q2-5", "id": 5, "value": "-1" },
+      // { "quest": "Q2-6", "id": 6, "value": "-1" },
+      // { "quest": "Q2-7", "id": 7, "value": "-1" },
+      // { "quest": "Q2-8", "id": 8, "value": "-1" },
+      // { "quest": "Q2-9", "id": 9, "value": "-1" },
+      // { "quest": "Q2-10", "id": 10, "value": "-1" },
+      // { "quest": "Q2-11", "id": 11, "value": "-1" },
+      // { "quest": "Q2-12", "id": 12, "value": "-1" },
+      // { "quest": "Q2-13", "id": 13, "value": "-1" },
+      // { "quest": "Q2-14", "id": 14, "value": "-1" },
+      // { "quest": "Q2-15", "id": 15, "value": "-1" },
+      // { "quest": "Q2-16", "id": 16, "value": "-1" },
+      // { "quest": "Q2-17", "id": 17, "value": "-1" },
+      // { "quest": "Q2-18", "id": 18, "value": "-1" }
     ]
   },
   {
@@ -64,20 +64,20 @@ let data = [
       { "quest": "Q3-2", "id": 2, "value": "-1" },
       { "quest": "Q3-3", "id": 3, "value": "-1" },
       { "quest": "Q3-4", "id": 4, "value": "-1" },
-      { "quest": "Q3-5", "id": 5, "value": "-1" },
-      { "quest": "Q3-6", "id": 6, "value": "-1" },
-      { "quest": "Q3-7", "id": 7, "value": "-1" },
-      { "quest": "Q3-8", "id": 8, "value": "-1" },
-      { "quest": "Q3-9", "id": 9, "value": "-1" },
-      { "quest": "Q3-10", "id": 10, "value": "-1" },
-      { "quest": "Q3-11", "id": 11, "value": "-1" },
-      { "quest": "Q3-12", "id": 12, "value": "-1" },
-      { "quest": "Q3-13", "id": 13, "value": "-1" },
-      { "quest": "Q3-14", "id": 14, "value": "-1" },
-      { "quest": "Q3-15", "id": 15, "value": "-1" },
-      { "quest": "Q3-16", "id": 16, "value": "-1" },
-      { "quest": "Q3-17", "id": 17, "value": "-1" },
-      { "quest": "Q3-18", "id": 18, "value": "-1" }
+      // { "quest": "Q3-5", "id": 5, "value": "-1" },
+      // { "quest": "Q3-6", "id": 6, "value": "-1" },
+      // { "quest": "Q3-7", "id": 7, "value": "-1" },
+      // { "quest": "Q3-8", "id": 8, "value": "-1" },
+      // { "quest": "Q3-9", "id": 9, "value": "-1" },
+      // { "quest": "Q3-10", "id": 10, "value": "-1" },
+      // { "quest": "Q3-11", "id": 11, "value": "-1" },
+      // { "quest": "Q3-12", "id": 12, "value": "-1" },
+      // { "quest": "Q3-13", "id": 13, "value": "-1" },
+      // { "quest": "Q3-14", "id": 14, "value": "-1" },
+      // { "quest": "Q3-15", "id": 15, "value": "-1" },
+      // { "quest": "Q3-16", "id": 16, "value": "-1" },
+      // { "quest": "Q3-17", "id": 17, "value": "-1" },
+      // { "quest": "Q3-18", "id": 18, "value": "-1" }
     ]
   },
   {
@@ -91,20 +91,20 @@ let data = [
       { "quest": "Q4-2", "id": 2, "value": "-1" },
       { "quest": "Q4-3", "id": 3, "value": "-1" },
       { "quest": "Q4-4", "id": 4, "value": "-1" },
-      { "quest": "Q4-5", "id": 5, "value": "-1" },
-      { "quest": "Q4-6", "id": 6, "value": "-1" },
-      { "quest": "Q4-7", "id": 7, "value": "-1" },
-      { "quest": "Q4-8", "id": 8, "value": "-1" },
-      { "quest": "Q4-9", "id": 9, "value": "-1" },
-      { "quest": "Q4-10", "id": 10, "value": "-1" },
-      { "quest": "Q4-11", "id": 11, "value": "-1" },
-      { "quest": "Q4-12", "id": 12, "value": "-1" },
-      { "quest": "Q4-13", "id": 13, "value": "-1" },
-      { "quest": "Q4-14", "id": 14, "value": "-1" },
-      { "quest": "Q4-15", "id": 15, "value": "-1" },
-      { "quest": "Q4-16", "id": 16, "value": "-1" },
-      { "quest": "Q4-17", "id": 17, "value": "-1" },
-      { "quest": "Q4-18", "id": 18, "value": "-1" }
+      // { "quest": "Q4-5", "id": 5, "value": "-1" },
+      // { "quest": "Q4-6", "id": 6, "value": "-1" },
+      // { "quest": "Q4-7", "id": 7, "value": "-1" },
+      // { "quest": "Q4-8", "id": 8, "value": "-1" },
+      // { "quest": "Q4-9", "id": 9, "value": "-1" },
+      // { "quest": "Q4-10", "id": 10, "value": "-1" },
+      // { "quest": "Q4-11", "id": 11, "value": "-1" },
+      // { "quest": "Q4-12", "id": 12, "value": "-1" },
+      // { "quest": "Q4-13", "id": 13, "value": "-1" },
+      // { "quest": "Q4-14", "id": 14, "value": "-1" },
+      // { "quest": "Q4-15", "id": 15, "value": "-1" },
+      // { "quest": "Q4-16", "id": 16, "value": "-1" },
+      // { "quest": "Q4-17", "id": 17, "value": "-1" },
+      // { "quest": "Q4-18", "id": 18, "value": "-1" }
     ]
   },
   {
@@ -118,20 +118,20 @@ let data = [
       { "quest": "Q5-2", "id": 2, "value": "-1" },
       { "quest": "Q5-3", "id": 3, "value": "-1" },
       { "quest": "Q5-4", "id": 4, "value": "-1" },
-      { "quest": "Q5-5", "id": 5, "value": "-1" },
-      { "quest": "Q5-6", "id": 6, "value": "-1" },
-      { "quest": "Q5-7", "id": 7, "value": "-1" },
-      { "quest": "Q5-8", "id": 8, "value": "-1" },
-      { "quest": "Q5-9", "id": 9, "value": "-1" },
-      { "quest": "Q5-10", "id": 10, "value": "-1" },
-      { "quest": "Q5-11", "id": 11, "value": "-1" },
-      { "quest": "Q5-12", "id": 12, "value": "-1" },
-      { "quest": "Q5-13", "id": 13, "value": "-1" },
-      { "quest": "Q5-14", "id": 14, "value": "-1" },
-      { "quest": "Q5-15", "id": 15, "value": "-1" },
-      { "quest": "Q5-16", "id": 16, "value": "-1" },
-      { "quest": "Q5-17", "id": 17, "value": "-1" },
-      { "quest": "Q5-18", "id": 18, "value": "-1" }
+      // { "quest": "Q5-5", "id": 5, "value": "-1" },
+      // { "quest": "Q5-6", "id": 6, "value": "-1" },
+      // { "quest": "Q5-7", "id": 7, "value": "-1" },
+      // { "quest": "Q5-8", "id": 8, "value": "-1" },
+      // { "quest": "Q5-9", "id": 9, "value": "-1" },
+      // { "quest": "Q5-10", "id": 10, "value": "-1" },
+      // { "quest": "Q5-11", "id": 11, "value": "-1" },
+      // { "quest": "Q5-12", "id": 12, "value": "-1" },
+      // { "quest": "Q5-13", "id": 13, "value": "-1" },
+      // { "quest": "Q5-14", "id": 14, "value": "-1" },
+      // { "quest": "Q5-15", "id": 15, "value": "-1" },
+      // { "quest": "Q5-16", "id": 16, "value": "-1" },
+      // { "quest": "Q5-17", "id": 17, "value": "-1" },
+      // { "quest": "Q5-18", "id": 18, "value": "-1" }
     ]
   },
   {
@@ -145,31 +145,37 @@ let data = [
       { "quest": "Q6-2", "id": 2, "value": "-1" },
       { "quest": "Q6-3", "id": 3, "value": "-1" },
       { "quest": "Q6-4", "id": 4, "value": "-1" },
-      { "quest": "Q6-5", "id": 5, "value": "-1" },
-      { "quest": "Q6-6", "id": 6, "value": "-1" },
-      { "quest": "Q6-7", "id": 7, "value": "-1" },
-      { "quest": "Q6-8", "id": 8, "value": "-1" },
-      { "quest": "Q6-9", "id": 9, "value": "-1" },
-      { "quest": "Q6-10", "id": 10, "value": "-1" },
-      { "quest": "Q6-11", "id": 11, "value": "-1" },
-      { "quest": "Q6-12", "id": 12, "value": "-1" },
-      { "quest": "Q6-13", "id": 13, "value": "-1" },
-      { "quest": "Q6-14", "id": 14, "value": "-1" },
-      { "quest": "Q6-15", "id": 15, "value": "-1" },
-      { "quest": "Q6-16", "id": 16, "value": "-1" },
-      { "quest": "Q6-17", "id": 17, "value": "-1" },
-      { "quest": "Q6-18", "id": 18, "value": "-1" }
+      // { "quest": "Q6-5", "id": 5, "value": "-1" },
+      // { "quest": "Q6-6", "id": 6, "value": "-1" },
+      // { "quest": "Q6-7", "id": 7, "value": "-1" },
+      // { "quest": "Q6-8", "id": 8, "value": "-1" },
+      // { "quest": "Q6-9", "id": 9, "value": "-1" },
+      // { "quest": "Q6-10", "id": 10, "value": "-1" },
+      // { "quest": "Q6-11", "id": 11, "value": "-1" },
+      // { "quest": "Q6-12", "id": 12, "value": "-1" },
+      // { "quest": "Q6-13", "id": 13, "value": "-1" },
+      // { "quest": "Q6-14", "id": 14, "value": "-1" },
+      // { "quest": "Q6-15", "id": 15, "value": "-1" },
+      // { "quest": "Q6-16", "id": 16, "value": "-1" },
+      // { "quest": "Q6-17", "id": 17, "value": "-1" },
+      // { "quest": "Q6-18", "id": 18, "value": "-1" }
     ]
   }
 ];
 let ID_GROUP = 1;
+let ID_COMPLETE = 1;
 let DATA_LENGTH = data.length;
 
 const localStorageItem = {
   quizzResult: "quizzResult",
 }
 
+
+
 // Element
+const prevButton = document.querySelector("#prev-button");
+const nextButton = document.querySelector("#next-button");
+
 const elementQuest = ({
   quest,
   id,
@@ -215,30 +221,33 @@ const elementGroup = ({
 const groupNavigation = () => {
   const groups = document.querySelectorAll(".group");
   groups.forEach((g) => {
-    g.addEventListener("click", () => {
-      const indexGroup = Number(g.childNodes[1].innerHTML);
-      ID_GROUP = indexGroup;
+    const indexGroup = Number(g.childNodes[1].innerHTML);
 
-      prevButton.style.display = "block";
-      prevButton.innerHTML = "Trở lại";
-      nextButton.innerHTML = "Tiếp tục";
-      switch (ID_GROUP) {
-        case 1:
-          prevButton.style.display = "none";
-          break;
-        case DATA_LENGTH:
-          nextButton.innerHTML = "Hoàn thành";
-        default:
-          break;
-      }
+    if (indexGroup <= ID_COMPLETE) {
+      g.addEventListener("click", () => {
+        ID_GROUP = indexGroup;
 
-      initRender();
-    })
+        prevButton.style.display = "block";
+        prevButton.innerHTML = "Trở lại";
+        nextButton.innerHTML = "Tiếp tục";
+        switch (ID_GROUP) {
+          case 1:
+            prevButton.style.display = "none";
+            break;
+          case DATA_LENGTH:
+            nextButton.innerHTML = "Hoàn thành";
+          default:
+            break;
+        }
+
+        initRender();
+      })
+    } else {
+      g.style.cursor = "no-drop";
+    }
+
   })
 }
-
-const prevButton = document.querySelector("#prev-button");
-const nextButton = document.querySelector("#next-button");
 
 
 
@@ -302,16 +311,50 @@ const initRender = () => {
   renderListGroup();
   renderListQuest();
   groupNavigation();
+  radioSelect();
   resizeFunc();
 
+
+  // Navigation
+
+  // Prev
   prevButton.addEventListener("click", prevFunc);
-  if(ID_GROUP === DATA_LENGTH) {
-    nextButton.removeEventListener("click", nextFunc);
-    nextButton.addEventListener("click", submit);
+
+
+  // Next
+  let checkFullQuestion = true;
+  const groupQuest = data.find((d) => d.id === ID_GROUP);
+
+  if(groupQuest !== undefined) {
+    groupQuest.quests.forEach((q) => {
+      checkFullQuestion = q.value === "-1" ? false : checkFullQuestion;
+    })
   } else {
-    nextButton.removeEventListener("click", submit);
-    nextButton.addEventListener("click", nextFunc);
+    checkFullQuestion = false;
   }
+
+  if(checkFullQuestion) {
+    nextButton.style.cursor = "pointer";
+    nextButton.style.backgroundColor = "#0051AE";
+    nextButton.style.borderColor = "#0051AE";
+
+    if(ID_GROUP === DATA_LENGTH) {
+      nextButton.removeEventListener("click", nextFunc);
+      nextButton.addEventListener("click", submit);
+    } else {
+      nextButton.removeEventListener("click", submit);
+      nextButton.addEventListener("click", nextFunc);
+    }
+  
+
+  } else {
+    nextButton.removeEventListener("click", nextFunc);
+    nextButton.removeEventListener("click", submit);
+    nextButton.style.cursor = "no-drop";
+    nextButton.style.backgroundColor = "#9FA2A6";
+    nextButton.style.borderColor = "#9FA2A6";
+  }
+
   window.onresize = resizeFunc;
 }
 
@@ -321,6 +364,7 @@ const initRender = () => {
 // Action
 const nextFunc = () => {
   ID_GROUP = ID_GROUP < DATA_LENGTH ? ID_GROUP + 1 : DATA_LENGTH;
+  ID_COMPLETE = ID_GROUP > ID_COMPLETE ? ID_GROUP : ID_COMPLETE;
   prevButton.style.display = "block";
   if (ID_GROUP === DATA_LENGTH) {
     nextButton.innerHTML = "Hoàn thành";
@@ -329,6 +373,7 @@ const nextFunc = () => {
   }
   initRender();
 }
+
 const prevFunc = () => {
   ID_GROUP = ID_GROUP > 1 ? ID_GROUP - 1 : 1;
   nextButton.innerHTML = "Tiếp tục";
@@ -339,6 +384,7 @@ const prevFunc = () => {
   }
   initRender();
 }
+
 const resizeFunc = () => {
   const numberGroup = document.querySelector(".active.group .number");
   if(window.innerWidth < 576) {
@@ -347,6 +393,7 @@ const resizeFunc = () => {
     numberGroup.innerHTML = `${ID_GROUP}`;
   }
 }
+
 const submit = () => {
   const pointGroup = data.map((d) => {
     const point = d.quests.reduce((prev, cur) => prev = prev + (cur.value === "1" ? 1 : 0), 0);
@@ -373,6 +420,12 @@ const submit = () => {
   window.location.href = `${cutPath[0]}/TestResult/${cutPath[1]}`;
 }
 
+const radioSelect = () => {
+  const radio = document.querySelectorAll(".radio");
+  radio.forEach((r) => {
+    r.addEventListener("click", initRender);
+  })
+}
 
 
 // init
