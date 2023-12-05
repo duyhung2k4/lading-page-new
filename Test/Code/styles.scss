@@ -169,7 +169,7 @@ div.test-title {
 
 #list-test {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
   row-gap: 50px;
 }
@@ -271,11 +271,18 @@ div.test-title {
 }
 
 
+@media screen and (max-width: 1560px) {
+  #list-test {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media screen and (max-width: 1050px) {
   #list-test {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 @media screen and (max-width: 769px) {
   #list-test {
