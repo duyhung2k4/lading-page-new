@@ -10,7 +10,7 @@ const dataJSON = [
     "href": "https://www.blacasa.vn/test/phong-cach-hoc-tap",
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Dựa vào ngày sinh, xác định tính cách nổi trội của bạn",
     "detail": "Bạn sinh vào ngày thứ mấy trong tuần?",
     "turns": 123456,
@@ -20,7 +20,7 @@ const dataJSON = [
     "href": "https://ngoisao.vnexpress.net/quiz-dua-vao-ngay-sinh-xac-dinh-tinh-cach-noi-troi-cua-ban-4594825.html",
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Tiết lộ tính cách con người bạn dựa trên ngày sinh",
     "detail": "Bạn đã bao giờ tự hỏi tại sao bạn có những đặc điểm tính cách nhất định mà những người lại không có? Hóa ra, ngày sinh trong tuần cũng có liên quan ít nhiều đến tính cách của bạn.",
     "turns": 123456,
@@ -30,7 +30,7 @@ const dataJSON = [
     "href": "https://afamily.vn/ban-sinh-vao-thu-may-trong-tuan-dieu-do-tiet-lo-rat-nhieu-dieu-ve-tinh-cach-con-nguoi-ban-20221204121533685.chn",
   },
   {
-    "id": 1,
+    "id": 4,
     "name": "Ý nghĩa 12 cung Hoàng Đạo và tính cách thú vị",
     "detail": "Bạn thuộc cung Hoàng Đạo nào? Mỗi chòm sao đều nói lên tính cách đặc trưng khác nhau. Cùng tìm hiểu về tính cách nổi bật của từng cung hoàng đạo nhé.",
     "turns": 123456,
@@ -40,7 +40,7 @@ const dataJSON = [
     "href": "https://mediamart.vn/phong-thuy/12-cung-hoang-dao-va-tinh-cach-co-ve-dung",
   },
   {
-    "id": 1,
+    "id": 5,
     "name": "Trắc nghiệm vui: Đoán tính cách và mong muốn của bạn qua con số trên cây",
     "detail": "Nhà tâm lý học nổi tiếng người Anh Pip Wilson đã tạo ra bài trắc nghiệm này: Quan sát bức hình, chọn con số trên cây mà bạn nghĩ là thích hợp với mình nhất.",
     "turns": 123456,
@@ -50,7 +50,7 @@ const dataJSON = [
     "href": "https://kenh14.vn/trac-nghiem-vui-doan-tinh-cach-va-mong-muon-cua-ban-qua-con-so-tren-cay-2022121610114966.chn",
   },
   {
-    "id": 1,
+    "id": 6,
     "name": "Trắc nghiệm vui đoán tính cách",
     "detail": "Cảm nhận của bạn về những hình ảnh trong bài trắc nghiệm vui dưới đây sẽ tiết lộ các khía cạnh tiềm ẩn về tính cách và con người bạn.",
     "turns": 123456,
@@ -60,7 +60,7 @@ const dataJSON = [
     "href": "https://vtc.vn/trac-nghiem-vui-doan-tinh-cach-ban-thay-qua-bong-nao-lon-hon-ar606363.html",
   },
   {
-    "id": 1,
+    "id": 7,
     "name": "Bài test bóc phốt mọi điểm xấu tốt ở bạn",
     "detail": "Nếu phải chụp ảnh chung với một nhóm nhiều người, bạn sẽ chọn đứng ở vị trí nào như hình dưới đây?",
     "turns": 123456,
@@ -70,7 +70,7 @@ const dataJSON = [
     "href": "https://ngoisao.vnexpress.net/quiz-bai-test-tinh-huong-boc-phot-moi-diem-tot-xau-o-ban-4608564.html",
   },
   {
-    "id": 1,
+    "id": 8,
     "name": "Trắc nghiệm tính cách MBTI",
     "detail": "Test MBTI là một phương pháp phân tích tính cách sử dụng một loạt các câu hỏi trắc nghiệm. Kết quả kiểm tra MBTI cho thấy cách mọi người nhìn thế giới xung quanh và đưa ra quyết định về mọi vấn đề trong cuộc sống. ",
     "turns": 123456,
@@ -80,7 +80,7 @@ const dataJSON = [
     "href": "https://www.16personalities.com/free-personality-test",
   },
   {
-    "id": 1,
+    "id": 9,
     "name": "Trắc nghiệm não trái/ não phải",
     "detail": "Left-Brain/Right-Brain Test",
     "turns": 123456,
@@ -90,7 +90,7 @@ const dataJSON = [
     "href": "https://testyourself.psychtests.com/bin/transfer?req=MnwzMTc4fDY3NTg1OTR8MHwxfDE=&refempt=",
   },
   {
-    "id": 1,
+    "id": 10,
     "name": "Test tính cách qua màu sắc",
     "detail": "Test color is the result of original research conducted and validated by a team of clinical psychologists, psychoanalysts and mathematicians. Test color can generate over 50 million different answers, personalized according to every test.",
     "turns": 123456,
@@ -100,7 +100,7 @@ const dataJSON = [
     "href": "https://www.testcolor.com/",
   },
   {
-    "id": 1,
+    "id": 11,
     "name": "Trắc nghiệm nghề nghiệp iPersonic",
     "detail": "Your iPersonic Career Profile gives you invaluable insight into your individuality, outlining your strengths along with areas of relative weakness.",
     "turns": 123456,
@@ -110,7 +110,7 @@ const dataJSON = [
     "href": "https://www.ipersonic.com/test.html",
   },
   {
-    "id": 1,
+    "id": 12,
     "name": "Bảng hỏi nhận dạng trí thông minh đa diện (MIPQ)",
     "detail": "Bảng hỏi nhận dạng trí thông minh đa diện (MIPQ) là bảng câu hỏi tự đánh giá dựa trên lý thuyết về trí thông minh đa diện của tiến sĩ tâm lý học phát triển Howard Gardner.",
     "turns": 123456,
@@ -120,7 +120,7 @@ const dataJSON = [
     "href": "https://tracnghiem.huongnghiepsongan.com/assess/tracnghiem/MIPQVI",
   },
   {
-    "id": 1,
+    "id": 13,
     "name": "Trắc nghiệm nghề nghiệp - Test Energy",
     "detail": "Tìm ra đúng thiên hướng sở thích, nghề nghiệp của mình, từ đó chọn được nghề phù hợp nhất.",
     "turns": 123456,
