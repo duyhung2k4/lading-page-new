@@ -59,35 +59,35 @@ div.content {
   align-items: center;
 }
 
-.container {
+.council__container {
   width: 80%;
 }
 
-div#container-vision {
+div#council__container-vision {
   display: grid;
   grid-template-columns: 5fr 2fr;
   -moz-column-gap: 103px;
        column-gap: 103px;
   padding-top: 119px;
 }
-div#container-vision div.option p {
+div#council__container-vision div.option p {
   margin-block-start: 16px;
   margin-block-end: 16px;
 }
-div#container-vision div.option p.title {
+div#council__container-vision div.option p.title {
   font-size: var(--fs-xl);
   font-weight: var(--fw-md);
 }
-div#container-vision div.option p.detail {
+div#council__container-vision div.option p.detail {
   font-size: var(--fs-md);
   font-weight: var(--fw-sm);
 }
-div#container-vision div#img-vision img {
+div#council__container-vision div#img-vision img {
   width: 100%;
   height: auto;
 }
 
-div#container-target {
+div#council__container-target {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -100,11 +100,11 @@ div#container-target {
   background-size: cover;
   margin-top: 56px;
 }
-div#container-target p#text-target {
+div#council__container-target p#text-target {
   font-size: var(--fs-xl);
   font-weight: var(--fw-md);
 }
-div#container-target div#list-target {
+div#council__container-target div#list-target {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   -moz-column-gap: 32px;
@@ -112,7 +112,7 @@ div#container-target div#list-target {
   row-gap: 24px;
   width: 80% !important;
 }
-div#container-target div#list-target div.target {
+div#council__container-target div#list-target div.target {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -121,17 +121,17 @@ div#container-target div#list-target div.target {
   background-color: var(--White);
   padding: 16px;
 }
-div#container-target div#list-target div.target p.title {
+div#council__container-target div#list-target div.target p.title {
   font-size: var(--fs-md);
   font-weight: var(--fw-md);
 }
-div#container-target div#list-target div.target p.detail {
+div#council__container-target div#list-target div.target p.detail {
   text-align: center;
   font-size: var(--fs-md);
   font-weight: var(--fw-sm);
 }
 
-div#container-member-work {
+div#council__container-member-work {
   width: 100% !important;
   display: flex;
   flex-direction: column;
@@ -140,44 +140,44 @@ div#container-member-work {
   background-color: var(--White);
   padding: 60px 0px;
 }
-div#container-member-work div#member-work {
+div#council__container-member-work div#member-work {
   width: 80%;
   display: grid;
   grid-template-columns: 3fr 4fr;
   -moz-column-gap: 32px;
        column-gap: 32px;
 }
-div#container-member-work div#member-work div#member-work-img {
+div#council__container-member-work div#member-work div#member-work-img {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-div#container-member-work div#member-work div#member-work-img img {
+div#council__container-member-work div#member-work div#member-work-img img {
   width: 100%;
   max-width: 100%;
 }
-div#container-member-work div#member-work div#list-team {
+div#council__container-member-work div#member-work div#list-team {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-div#container-member-work div#member-work div#list-team div.team {
+div#council__container-member-work div#member-work div#list-team div.team {
   width: 100%;
 }
-div#container-member-work div#member-work div#list-team div.team div.name-team {
+div#council__container-member-work div#member-work div#list-team div.team div.name-team {
   font-size: var(--fs-xl);
   font-weight: var(--fw-md);
 }
-div#container-member-work div#member-work div#list-team div.list-option {
+div#council__container-member-work div#member-work div#list-team div.list-option {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-div#container-member-work div#member-work div#list-team div.list-option div.option {
+div#council__container-member-work div#member-work div#list-team div.list-option div.option {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -185,19 +185,19 @@ div#container-member-work div#member-work div#list-team div.list-option div.opti
   -moz-column-gap: 8px;
        column-gap: 8px;
 }
-div#container-member-work div#member-work div#list-team div.list-option div.option img {
+div#council__container-member-work div#member-work div#list-team div.list-option div.option img {
   margin-top: 4px;
 }
-div#container-member-work div#member-work div#list-team div.list-option div.option p.detail {
+div#council__container-member-work div#member-work div#list-team div.list-option div.option p.detail {
   margin-block-start: 0px;
   font-size: var(--fs-md);
   color: var(--color-grey-4);
 }
-div#container-member-work div#member-work div#list-team div.list-option div.option p.detail span.name {
+div#council__container-member-work div#member-work div#list-team div.list-option div.option p.detail span.name {
   color: var(--Black);
 }
 
-div#container-member-master {
+div#council__container-member-master {
   width: 100% !important;
   display: flex;
   flex-direction: column;
@@ -206,10 +206,10 @@ div#container-member-master {
   padding: 45px 0px;
   background-color: var(--color-primary-1);
 }
-div#container-member-master p#member-title {
+div#council__container-member-master p#member-title {
   font-size: var(--fs-xl);
 }
-div#container-member-master div#list-member-master {
+div#council__container-member-master div#list-member-master {
   width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -217,7 +217,7 @@ div#container-member-master div#list-member-master {
        column-gap: 32px;
   row-gap: 24px;
 }
-div#container-member-master div#list-member-master div.member {
+div#council__container-member-master div#list-member-master div.council__member {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -226,23 +226,23 @@ div#container-member-master div#list-member-master div.member {
   padding: 24px;
   border-radius: var(--border-radius-md);
 }
-div#container-member-master div#list-member-master div.member p {
+div#council__container-member-master div#list-member-master div.council__member p {
   margin-block-end: 0px;
 }
-div#container-member-master div#list-member-master div.member p.name {
+div#council__container-member-master div#list-member-master div.council__member p.name {
   text-align: center;
 }
-div#container-member-master div#list-member-master div.member p.detail {
+div#council__container-member-master div#list-member-master div.council__member p.detail {
   text-align: center;
   color: var(--color-grey-4);
 }
-div#container-member-master div#list-member-master div.member div.member-img {
+div#council__container-member-master div#list-member-master div.council__member div.council__member-img {
   width: 126px;
   height: 126px;
   border-radius: 126px;
   background-color: var(--color-grey-4);
 }
-div#container-member-master div#list-member-master div.member div.member-img img {
+div#council__container-member-master div#list-member-master div.council__member div.council__member-img img {
   vertical-align: middle;
   width: 100%;
   height: 100%;
@@ -252,21 +252,21 @@ div#container-member-master div#list-member-master div.member div.member-img img
 }
 
 @media screen and (max-width: 960px) {
-  div#container-member-work div#member-work {
+  div#council__container-member-work div#member-work {
     grid-template-columns: 1fr;
   }
-  div#container-member-work div#list-team {
+  div#council__container-member-work div#list-team {
     margin-top: 24px;
   }
-  div#container-member-master div#list-member-master {
+  div#council__container-member-master div#list-member-master {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 769px) {
-  div#container-target div#list-target {
+  div#council__container-target div#list-target {
     grid-template-columns: 1fr;
   }
-  div#container-vision {
+  div#council__container-vision {
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
@@ -274,7 +274,7 @@ div#container-member-master div#list-member-master div.member div.member-img img
   }
 }
 @media screen and (max-width: 640px) {
-  div#container-member-master div#list-member-master {
+  div#council__container-member-master div#list-member-master {
     grid-template-columns: repeat(1, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */

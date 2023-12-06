@@ -61,11 +61,11 @@ div.content {
   align-items: center;
 }
 
-.container {
+.council__container {
   width: 80%;
 }
 
-div#container-vision {
+div#council__container-vision {
   display: grid;
   grid-template-columns: 5fr 2fr;
   column-gap: 103px;
@@ -96,7 +96,7 @@ div#container-vision {
   }
 }
 
-div#container-target {
+div#council__container-target {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -144,7 +144,7 @@ div#container-target {
   }
 }
 
-div#container-member-work {
+div#council__container-member-work {
   width: 100% !important;
   display: flex;
   flex-direction: column;
@@ -219,7 +219,7 @@ div#container-member-work {
 }
 
 
-div#container-member-master {
+div#council__container-member-master {
   width: 100% !important;
   display: flex;
   flex-direction: column;
@@ -239,7 +239,7 @@ div#container-member-master {
     column-gap: 32px;
     row-gap: 24px;
 
-    div.member {
+    div.council__member {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -261,7 +261,7 @@ div#container-member-master {
         color: var(--color-grey-4);
       }
 
-      div.member-img {
+      div.council__member-img {
         width: 126px;
         height: 126px;
         border-radius: 126px;
@@ -279,7 +279,7 @@ div#container-member-master {
 }
 
 @media screen and (max-width: 960px) {
-  div#container-member-work {
+  div#council__container-member-work {
     div#member-work {
       grid-template-columns: 1fr;
     }
@@ -288,7 +288,7 @@ div#container-member-master {
     }
   }
 
-  div#container-member-master {
+  div#council__container-member-master {
     div#list-member-master {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -296,13 +296,13 @@ div#container-member-master {
 }
 
 @media screen and (max-width: 769px) {
-  div#container-target {
+  div#council__container-target {
     div#list-target {
       grid-template-columns: 1fr;
     }
   }
 
-  div#container-vision {
+  div#council__container-vision {
     display: flex;
     flex-direction: column-reverse;
     justify-content:  flex-start;
@@ -311,7 +311,7 @@ div#container-member-master {
 }
 
 @media screen and (max-width: 640px) {
-  div#container-member-master {
+  div#council__container-member-master {
     div#list-member-master {
       grid-template-columns: repeat(1, 1fr);
     }

@@ -45,8 +45,8 @@ const elementListMemberMaster = document.getElementById("list-member-master");
 const memberMasterTemplate = (member) => {
   return (
     `
-    <div class="member" id="member-master-${member.id}">
-      <div class="member-img">
+    <div class="council__member" id="council__member-master-${member.id}">
+      <div class="council__member-img">
         <img src="${member.hrefImg}" alt="">
       </div>
       <p class="name">${member.name}</p>
