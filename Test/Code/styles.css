@@ -198,8 +198,15 @@ div.test-title .select #type-school {
   padding: 16px;
   cursor: pointer;
 }
-.test img {
-  width: 100%;
+.test div.test-img {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .test-detail .name {

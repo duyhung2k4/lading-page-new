@@ -159,11 +159,12 @@ const templateTest = ({
   date,
   id,
 }) => {
+  const test = dataJSON.find((d) => d.id === id);
   const content =
     `
-  <div class="wrap-title mr-top-sm">
-    <img src="${linkImg}" alt="">
-    <div class="test-detail full-width">
+  <div class="wrap-title">
+    <div class="test-img" style="background-image: url(${linkImg})" id="bg-img-${id}"></div>
+    <div class="test-detail full-width mr-top-sm">
       <p class="name">${name}</p>
       <p class="detail">${detail}</p>
     </div>
