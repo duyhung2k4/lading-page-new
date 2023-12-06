@@ -3,37 +3,37 @@ const memberMasterJSON = [
     "id": 1,
     "name": "PGS.TS. Nguyễn Thị Tuyết Mai",
     "detail": "Nguyên Vụ phó Vụ Quản lý các trường chính trị - HV Chính trị QG HCM",
-    "href-img": "",
+    "hrefImg": "./imageMaster/img1.png",
   },
   {
     "id": 2,
     "name": "TS. Nguyễn Thị Thanh Hòa",
     "detail": "Trưởng khoa văn hóa, trường ĐH Thủ Đô",
-    "href-img": "",
+    "hrefImg": "./imageMaster/img2.png",
   },
   {
     "id": 3,
     "name": "NCS. Nguyễn Thị Biên",
     "detail": "Thành viên Hội đồng biên soạn và thẩm định chương trình hướng nghiệp – khởi nghiệp của MOET",
-    "href-img": "",
+    "hrefImg": "./imageMaster/img3.png",
   },
   {
     "id": 4,
     "name": "Ths. Nguyễn Thu Hiền",
     "detail": "Viện trưởng Viện nghiên cứu hướng nghiệp & khởi nghiệp - IGCE",
-    "href-img": "",
+    "hrefImg": "./imageMaster/img4.png",
   },
   {
     "id": 5,
     "name": "Ths. Nguyễn Thị Bích Hòa",
     "detail": "Giám đốc chương trình IGCE",
-    "href-img": "",
+    "hrefImg": "./imageMaster/img5.png",
   },
   {
     "id": 6,
     "name": "Ths. Đỗ Thị Phương Thảo",
     "detail": "Giám đốc đào tạo IGCE",
-    "href-img": "",
+    "hrefImg": "./imageMaster/img6.png",
   }
 ]
 
@@ -47,7 +47,7 @@ const memberMasterTemplate = (member) => {
     `
     <div class="member" id="member-master-${member.id}">
       <div class="member-img">
-        <img src="" alt="">
+        <img src="${member.hrefImg}" alt="">
       </div>
       <p class="name">${member.name}</p>
       <p class="detail">${member.detail}</p>
