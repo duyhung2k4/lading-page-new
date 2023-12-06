@@ -133,8 +133,8 @@ const dataJSON = [
 
 const typeSchool = {
   "all": "Tất cả",
-  "senior": "Chuyên gia",
-  "junior": "Người mới"
+  "senior": "11 - 17 tuổi",
+  "junior": "4 - 10 tuổi"
 }
 
 let TEST_OF_PAGE = -1;

@@ -201,6 +201,10 @@ div.test-title {
   padding: 16px;
   cursor: pointer;
 
+  div.wrap-title {
+    width: 100% !important;
+  }
+
   
   div.test-img {
     height: 200px;
