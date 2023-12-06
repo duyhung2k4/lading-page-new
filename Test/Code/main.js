@@ -129,6 +129,16 @@ const dataJSON = [
     "type": "senior",
     "href": "https://www.uef.edu.vn/huong-nghiep/trac-nghiem-nghe-nghiep",
   },
+  {
+    "id": 14,
+    "name": "Trắc nghiệm sở thích nghề nghiệp theo Holland",
+    "detail": "Trắc nghiệm sở thích nghề nghiệp theo Holland",
+    "turns": 123456,
+    "date": "11/02/2022",
+    "linkImg": "./image/note.png",
+    "type": "senior",
+    "href": "https://www.uef.edu.vn/huong-nghiep/trac-nghiem-nghe-nghiep",
+  },
 ]
 
 const typeSchool = {

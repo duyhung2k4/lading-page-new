@@ -198,6 +198,9 @@ div.test-title .select #type-school {
   padding: 16px;
   cursor: pointer;
 }
+.test div.wrap-title {
+  width: 100% !important;
+}
 .test div.test-img {
   height: 200px;
   display: flex;
