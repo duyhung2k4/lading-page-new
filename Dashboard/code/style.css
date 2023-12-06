@@ -76,6 +76,10 @@ div#council__container-target div#council_list-target div.council_target p.counc
   font-size: var(--fs-md);
   font-weight: var(--fw-sm);
 }
+div#council__container-target div#council_list-target div.council_target img {
+  width: 33%;
+  height: auto;
+}
 
 div#council__container-member-work {
   width: 100% !important;
