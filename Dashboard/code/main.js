@@ -37,7 +37,7 @@ const memberMasterJSON = [
   }
 ]
 
-const elementListMemberMaster = document.getElementById("council_list-member-master");
+const elementListMemberMaster = document.getElementById("council__list-member-master");
 
 
 
@@ -49,8 +49,8 @@ const memberMasterTemplate = (member) => {
       <div class="council__member-img">
         <img src="${member.hrefImg}" alt="">
       </div>
-      <p class="council_name">${member.name}</p>
-      <p class="council_detail">${member.detail}</p>
+      <p class="council__name">${member.name}</p>
+      <p class="council__detail">${member.detail}</p>
     </div>
     `
   )
